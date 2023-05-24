@@ -1,0 +1,12 @@
+{
+    "namespace": "moj-testowy-workspace",
+    "project": "uwb shop",
+    "version": "latest",
+    "typingsEnv": "node",
+    "typingsHost": "http://localhost:8080/",
+    "typingsDir": "./src",
+    "backendSrc": "./src",
+    "backendLib": "./lib",
+    "schemaDir": "./",
+    "projectVersion": "latest"
+}

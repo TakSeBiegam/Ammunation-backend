@@ -1,0 +1,40 @@
+type Query{
+	me: String!
+}
+
+type Mutation {
+	ApplyForm(
+		data: ApplyFormInput!
+	): Boolean!
+}
+
+input ApplyFormInput{
+	firstName: String!
+	lastName: String!
+	birthday: String!
+	phoneNumber: String
+	email: String
+	aboutMe: String!
+}
+
+type ApplicationForm{
+	firstName: String!
+	lastName: String!
+	birthday: String!
+	phoneNumber: String
+	email: String
+	AboutMe: String!
+}
+
+type Product {
+	id: String!
+	name: String!
+	description: String!
+	price: Int!
+	image: String!
+}
+
+schema{
+	query: Query
+	mutation: Mutation
+}

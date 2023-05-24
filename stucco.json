@@ -1,0 +1,19 @@
+{
+    "resolvers": {
+        "Query.me": {
+            "resolve": {
+                "name": "lib/Query/me"
+            }
+        },
+        "Query.findProduct": {
+            "resolve": {
+                "name": "lib/Query/findProduct"
+            }
+        },
+        "Mutation.ApplyForm":{
+            "resolve": {
+                "name": "lib/Mutation/applyForm"
+            }
+        }
+    }
+}
